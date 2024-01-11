@@ -26,10 +26,10 @@ I'm not fully sure how many rigs I'm going to make for this add-on but you can c
 ### For glTF Models
 
 1. **Create Animation:**
-   After animating the original imported model, select all related objects.
+   After animating the original imported model, select all related empties.
 
 2. **Export Animation:**
-   Go to `File > Export > Export Minecraft Animation`.
+   Go to `File > Export > Export Minecraft Animation`, be sure "Export From Armature" is unticked.
 
 3. **Finish:**
    The animation is now exported and ready for use in Minecraft.
