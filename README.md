@@ -54,7 +54,7 @@ If you encounter any issues or have questions about using the exporter, check th
 
 ## Project Maintenance
 
-The Minecraft Animation Exporter is maintained and contributed to by the open-source community. We welcome contributions from developers and animators alike. To contribute, fork the repository, make your changes, and submit a pull request. Refer to the [Contribution Guidelines](CONTRIBUTING.md) for more details.
+Minecraft-Animatic is maintained and contributed to by the open-source community. We welcome contributions from developers and animators alike. To contribute, fork the repository, make your changes, and submit a pull request. Refer to the [Contribution Guidelines](CONTRIBUTING.md) for more details.
 
 ---
 
