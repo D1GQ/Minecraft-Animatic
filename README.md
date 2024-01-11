@@ -4,7 +4,7 @@ A blender add-on that allows you to export animations to Minecraft .Json Format
 
 ## Overview
 
-Minecraft-Animatic is a powerful tool designed to streamline the process of exporting animations to Minecraft .json animation files. This versatile tool supports both glTF models and properly rigged models, offering a seamless integration for animators and developers in the Minecraft community.
+Minecraft-Animatic is a powerful tool designed to streamline the process of making animations for Minecraft. This versatile tool supports both glTF models and properly rigged models, offering a seamless integration for animators and developers in the Minecraft community.
 
 ## Why It's Useful
 
