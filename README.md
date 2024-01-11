@@ -19,6 +19,10 @@ Minecraft-Animatic is a powerful tool designed to streamline the process of expo
 
 ## Getting Started
 
+### Rigs To Use
+1. **Rigs From Me:**
+I'm not fully sure how many rigs I'm going to make for this add-on but you can check what I've made so far from this [Google Drive Link](https://drive.google.com/drive/u/1/folders/1sqq_dfsfyfIOlT5TmKUKU6mJGF4AzElv)
+
 ### For glTF Models
 
 1. **Create Animation:**
