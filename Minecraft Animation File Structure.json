@@ -1,0 +1,44 @@
+{
+	"format_version": "1.8.0", < Put format version.
+	"animations": {
+		"animation.blender.exported": { < The animation id/name inputted from the user in the export menu.
+			"loop": true, < Optional in export menu, If not ticked set false.
+			"animation_length": 1, < Animation length 1 = 1 second, note can go into 1.00000 Be sure to convert this from the blender Start and End values for animation.
+			"override_previous_animation": true, < Optional in export menu, If not ticked set false.
+			"anim_time_update": "X", < Optional in export menu with choosable Number value, If there is no number inputted from the user do not create this variable
+			"blend_weight": "X", < Optional in export menu with choosable Number value, If there is no number inputted from the user do not create this variable
+			"start_delay": "X", < Optional in export menu with choosable Number value, If there is no number inputted from the user do not create this variable
+			"loop_delay": "X", < Optional in export menu with choosable Number value, If there is no number inputted from the user do not create this variable
+			"bones": {
+				"Selected Object 1": { < The name of the selected object, do this for each selected object and add the information below.
+					"rotation": {
+						"0.0": [0, 0, 0], < the "0.0": Is where to put the keyframe in the animation, the [0, 0, 0] Are the rotation axis for XYZ.
+						"1.0": [27.5, 0, 0] < the "1.0": Is where to put the keyframe in the animation, the [27.5, 0, 0] Are the rotation axis for XYZ.
+					},
+					"position": {
+						"0.0": [0, 0, 0], < the "0.0": Is where to put the keyframe in the animation, the [0, 0, 0] Are the position axis for XYZ.
+						"1.0": [6, 0, 0] < the "0.0": Is where to put the keyframe in the animation, the [6, 0, 0] Are the position axis for XYZ.
+					},
+					"scale": {
+						"0.0": [1.1, 1, 1], < the "0.0": Is where to put the keyframe in the animation, the [1.1, 1, 1] Are the dimension/scale axis for XYZ.
+						"1.0": [1.1, 1, 2] < the "1.0": Is where to put the keyframe in the animation, the [1.1, 1, 2] Are the dimension/scale axis for XYZ.
+					}
+				},
+				"Selected Object 2": { < The name of the selected object, do this for each selected object and add the information below.
+					"rotation": {
+						"0.0": [0, 0, 0], < the "0.0": Is where to put the keyframe in the animation, the [0, 0, 0] Are the rotation axis for XYZ.
+						"1.0": [27.5, 0, 0] < the "1.0": Is where to put the keyframe in the animation, the [27.5, 0, 0] Are the rotation axis for XYZ.
+					},
+					"position": {
+						"0.0": [0, 0, 0], < the "0.0": Is where to put the keyframe in the animation, the [0, 0, 0] Are the position axis for XYZ.
+						"1.0": [6, 0, 0] < the "1.0": Is where to put the keyframe in the animation, the [6, 0, 0] Are the position axis for XYZ.
+					},
+					"scale": {
+						"0.0": [1.1, 1, 1], < the "0.0": Is where to put the keyframe in the animation, the [1.1, 1, 1] Are the dimension/scale axis for XYZ.
+						"1.0": [1.1, 1, 2] < the "1.0": Is where to put the keyframe in the animation, the [1.1, 1, 2] Are the dimension/scale axis for XYZ.
+					}
+				}
+			}
+		}
+	}
+}
