@@ -11,6 +11,16 @@ FORMAT_VERSIONS = [
     "1.19.70", "1.19.80", "1.20.0", "1.20.10", "1.20.20", "1.20.30", "1.20.40",
 ]
 
+# Define the position and scale multipliers
+OBJ_POSITION_MULTIPLIER = 15.5
+POSITION_MULTIPLIER = 16.0
+SCALE_MULTIPLIER = 1.0
+ROTATION_MULTIPLIER = 1.0
+
+def quaternion_to_xyz(rotation_quaternion):
+    euler = rotation_quaternion.to_euler()
+    return euler.x, euler.y, euler.z
+
 # Inside the export_minecraft_animation function, modify the rotation and position data accordingly
 def export_minecraft_animation(context, filepath, anim_id, loop, override, anim_time_update, blend_weight, start_delay, loop_delay, format_version, invert_rotation_axes, invert_position_axes, export_armature):
     # Ensure the file has a .json extension
